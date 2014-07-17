@@ -38,10 +38,6 @@ def pipl():
 	for i in set(empty):
 		print i
 
-	print "\nUser Videos Loading ..\n"
-	for i in set(empty2):
-		print i	
-
 pipl = threading.Thread(name='pipl', target=pipl)
 pipl.run()
 
